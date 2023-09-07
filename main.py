@@ -16,21 +16,27 @@
 
 
 
-# # Review
-# create variables for the following :
-# 1. age
-# 2. name
-# 3. song
-# 4. food
-# 5. number
+# # # Review
+# # create variables for the following :
+# # 1. age
+# age = 16
+# # 2. name
+# name = "Isaac"
+# # 3. song
+# song = "Dead Inside by Younger Hunger"
+# # 4. food
+# food = "Sushi"
+# # 5. number
+# num = 101
 
-# #now include the variables you just made print in the following...
+# # #now include the variables you just made print in the following...
 
-# Once upon a time, there was a [age] old coder named [name]. 
+# # Once upon a time, there was a [age] old coder named [name]. 
 
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# print(f"Once upon a time, there was a {age} year old codger named {name}. {name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing. Still, {name} was the best coder on the team and could write {num} lines of code every day. Maybe {song} was {name}’s secret power?")
 ##########################################################################################
 
 
@@ -56,52 +62,81 @@
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 # 1st_name
+  # first_name or simply name
 # last name
+  # last_name
 # email@address
+  # email_address
 # percent%
+  # percentage
 # variable#name
+  # variable_name
 # O
+  # zero
 # list
+  # list1
 # Creating Valid Names: Create valid names for the following descriptions:
 
 # The first name of a person
+  # first_name
 # The last name of a person
+  # last_name
 # The email address of a person
+  # email_address
 # The percentage of marks obtained by a student
+  # percent_marks
 # A variable to store the number of items in a shopping cart
-
+  # num_items_cart
 
 # Identify Valid and Invalid Names: Identify which of the following names are valid or invalid according to the rules:
 
 # first_name
+  # valid
 # lastName
+  # valid
 # email_address
+  # valid
 # percentage
+  # valid
 # variable_name
+  # valid
 # 1_variable
+  # invalid
 # email@address
+  # invalid
 # percentage%
+  # invalid
 # i
+  # invalid
 
 
 
-
-# Declare two variables, called name and age.
-# Set the name variable value to "Tony Soprano" and the age value to 51.
-
-
-# Variables Practice #2
-# Create three variables:
-# first_name
-# last_name
-# full_name
-# Assign the value "Julia" to first_name, and for last_name, assign the value "Roberts". Finally, build the variable full_name by concatenating these two variables (remember to add a space in between)
+# # Declare two variables, called name and age.
+# name = "Tony Soprano"
+# age = 51
+# # Set the name variable value to "Tony Soprano" and the age value to 51.
 
 
-# Variables Practice #3
-# Declare the variable course, assign it the value "Python", and print the following sentence:
-# You are taking a course course
-# To do this, you must concatenate the first and last parts of the sentence with the variable. Remember to add spaces before and after concatenating the variable to the rest of the text.
+# # Variables Practice #2
+# # Create three variables:
+# # first_name
+# # last_name
+# # full_name
+# first_name = "Julia "
+# last_name = "Roberts"
+# full_name = first_name + last_name
+# print(full_name)
+# # Assign the value "Julia" to first_name, and for last_name, assign the value "Roberts". Finally, build the variable full_name by concatenating these two variables (remember to add a space in between)
+
+
+# # Variables Practice #3
+# # Declare the variable course, assign it the value "Python", and print the following sentence:
+# course = "Python"
+# phrase = "You are taking a"
+# print(f"{phrase} {course} course.")
+# print("You are taking a " + course + " course.")
+# # You are taking a course course
+# # To do this, you must concatenate the first and last parts of the sentence with the variable. Remember to add spaces before and after concatenating the variable to the rest of the text.
 
 
 
@@ -117,33 +152,79 @@
 # Integers are just whole numbers, positive or negative. For example: 2 and -2 are examples of integers.
 # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
 
-# slides 10 -12
-# Integers Practice
-# Declare a numeric variable named int_num that contains a value of integer type of your choice.
-# Print the data type of that variable.
+# # slides 10 -12
+# int_num = 5.7
+# print(int_num)
+# print(type(int_num))
+# # type() indentifies the type of data type
+# name = "Tony"
+# print(type(name))
+# classInSession = True
+# print(type(classInSession))
 
+# floating point numbers
 
-# Floats Practice
-# Declare a numeric variable named decimal_num that contains a value of float type of your choice.
-# Print the data type of that variable.
+# dollars = 50.25
+# price_of_book = 39.99
+# print(dollars)
+# total = dollars + price_of_book
+# print(total)
+# print(type(total))
+# print(dollars + price_of_book)
 
-# ata Types Practice
-# What type is the result of the sum of 7.5 + 2.5? Write the code to verify it.
-# To do this, create two variables:
+# money_for_movie = float(input("How much money do you have for the movie? "))
+# money_for_dinner = float(input("How much money do you have for dinner? "))
+# total_cost = money_for_movie + money_for_dinner
+# print("Total cost: $" , total_cost , "for the movie and dinner.")
+
+# # Integers Practice
+# # Declare a numeric variable named int_num that contains a value of integer type of your choice.
+# int_num = 12
+# # Print the data type of that variable.
+# print(type(int_num))
+
+# # Floats Practice
+# # Declare a numeric variable named decimal_num that contains a value of float type of your choice.
+# decimal_num = 12.25
+# # Print the data type of that variable.
+# print(type(decimal_num))
+# # python allows for implicit or explicit conversion
+# # decimal_num = 15.24 #Implicit means it is inferred
+# # decimal_num = float(15.24) #Explicit means it is explicitly defined
+# birthday = input("When is your birthday? ")
+# print(type(birthday))# implicit
+# print(int(birthday))# explicit
+
+# # Data Types Practice
+# # What type is the result of the sum of 7.5 + 2.5? Write the code to verify it.
+# # To do this, create two variables:
+# # num1 = 7.5
+# # num2 = 2.5
 # num1 = 7.5
 # num2 = 2.5
-# Next, print on the screen the data type that results from the sum of both numbers.
+# sum = num1 + num2
+# # Next, print on the screen the data type that results from the sum of both numbers.
+# print(type(sum))
 
 #################################Data Type conversions####################
 # slides 12 -19
 # Data Type Conversions Practice #1
 # Convert the value of num1 to an integer and print the resulting data type.
+num1 = 12
+print(type(num1))
+print(int(num1))
 
 #   Data Type Conversions Practice #2
 # Convert the value of num2 to a float and print the resulting data type.
+num2 = 202
+print(type(num2))
+print(float(num2))
 
 #   Data Type Conversions Practice #3
 # Add the values of num1 and num2.
+sum = num1 + num2
+print(sum)
+print(num1 + num2)
 # Do not modify the value of variables already declared, but apply the necessary conversions within the print() function.
 
 #################################formatting strings####################
