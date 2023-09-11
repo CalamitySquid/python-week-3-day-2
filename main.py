@@ -1,4 +1,4 @@
-# # Week  
+# # Week
 # # This week we will work on :
 # # Working With Strings
 
@@ -11,10 +11,6 @@
 
 # # 1.   Building a Basic Calculator
 # # 2.   Mad Libs Game
-
-
-
-
 
 # # # Review
 # # create variables for the following :
@@ -31,7 +27,7 @@
 
 # # #now include the variables you just made print in the following...
 
-# # Once upon a time, there was a [age] old coder named [name]. 
+# # Once upon a time, there was a [age] old coder named [name].
 
 # # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 
@@ -39,21 +35,13 @@
 # print(f"Once upon a time, there was a {age} year old codger named {name}. {name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing. Still, {name} was the best coder on the team and could write {num} lines of code every day. Maybe {song} was {name}’s secret power?")
 ##########################################################################################
 
-
-
-
-
-
-
-
-
 ##########################################################################################
 # The names you use when creating these labels need to follow a few rules:
 # 1. Names can not start with a number.
 # 2. There can be no spaces in the name, use _ instead.
 # 3. Can't use any of these symbols :'",<>/?|\()!@#$%^&*~-+
 # 4. It's considered best practice (PEP8) that names are lowercase.
-# 5. Avoid using the characters 'l' (lowercase letter el), 'O' (uppercase letter oh), 
+# 5. Avoid using the characters 'l' (lowercase letter el), 'O' (uppercase letter oh),
 #    or 'I' (uppercase letter eye) as single character variable names.
 # 6. Avoid using words that have special meaning in Python like "list" and "str"
 
@@ -62,60 +50,57 @@
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 # 1st_name
-  # first_name or simply name
+# first_name or simply name
 # last name
-  # last_name
+# last_name
 # email@address
-  # email_address
+# email_address
 # percent%
-  # percentage
+# percentage
 # variable#name
-  # variable_name
+# variable_name
 # O
-  # zero
+# zero
 # list
-  # list1
+# list1
 # Creating Valid Names: Create valid names for the following descriptions:
 
 # The first name of a person
-  # first_name
+# first_name
 # The last name of a person
-  # last_name
+# last_name
 # The email address of a person
-  # email_address
+# email_address
 # The percentage of marks obtained by a student
-  # percent_marks
+# percent_marks
 # A variable to store the number of items in a shopping cart
-  # num_items_cart
+# num_items_cart
 
 # Identify Valid and Invalid Names: Identify which of the following names are valid or invalid according to the rules:
 
 # first_name
-  # valid
+# valid
 # lastName
-  # valid
+# valid
 # email_address
-  # valid
+# valid
 # percentage
-  # valid
+# valid
 # variable_name
-  # valid
+# valid
 # 1_variable
-  # invalid
+# invalid
 # email@address
-  # invalid
+# invalid
 # percentage%
-  # invalid
+# invalid
 # i
-  # invalid
-
-
+# invalid
 
 # # Declare two variables, called name and age.
 # name = "Tony Soprano"
 # age = 51
 # # Set the name variable value to "Tony Soprano" and the age value to 51.
-
 
 # # Variables Practice #2
 # # Create three variables:
@@ -128,7 +113,6 @@
 # print(full_name)
 # # Assign the value "Julia" to first_name, and for last_name, assign the value "Roberts". Finally, build the variable full_name by concatenating these two variables (remember to add a space in between)
 
-
 # # Variables Practice #3
 # # Declare the variable course, assign it the value "Python", and print the following sentence:
 # course = "Python"
@@ -138,8 +122,6 @@
 # # You are taking a course course
 # # To do this, you must concatenate the first and last parts of the sentence with the variable. Remember to add spaces before and after concatenating the variable to the rest of the text.
 
-
-
 ################ # **Working with** **numbers** **bold text**#########
 
 # We'll learn about the following topics:
@@ -147,7 +129,7 @@
 # 2. Basic Arithmetic
 # 3. Differences between classic division and floor division
 
-# Python has various "types" of numbers (numeric literals). 
+# Python has various "types" of numbers (numeric literals).
 # 1. We'll mainly focus on integers and floating point numbers.
 # Integers are just whole numbers, positive or negative. For example: 2 and -2 are examples of integers.
 # 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
@@ -206,47 +188,50 @@
 # # Next, print on the screen the data type that results from the sum of both numbers.
 # print(type(sum))
 
-#################################Data Type conversions####################
-# slides 12 -19
-# Data Type Conversions Practice #1
-# Convert the value of num1 to an integer and print the resulting data type.
-num1 = 12
-print(type(num1))
-print(int(num1))
+# #################################Data Type conversions####################
+# # slides 12 -19
+# # Data Type Conversions Practice #1
+# # Convert the value of num1 to an integer and print the resulting data type.
+# num1 = 12
+# print(type(num1))
+# print(int(num1))
 
-#   Data Type Conversions Practice #2
-# Convert the value of num2 to a float and print the resulting data type.
-num2 = 202
-print(type(num2))
-print(float(num2))
+# #   Data Type Conversions Practice #2
+# # Convert the value of num2 to a float and print the resulting data type.
+# num2 = 202
+# print(type(num2))
+# print(float(num2))
 
-#   Data Type Conversions Practice #3
-# Add the values of num1 and num2.
-sum = num1 + num2
-print(sum)
-print(num1 + num2)
-# Do not modify the value of variables already declared, but apply the necessary conversions within the print() function.
+# #   Data Type Conversions Practice #3
+# # Add the values of num1 and num2.
+# sum = num1 + num2
+# print(sum)
+# print(num1 + num2)
+# # Do not modify the value of variables already declared, but apply the necessary conversions within the print() function.
 
 #################################formatting strings####################
 # slide 19 -22
-
 
 # Strings Formatting Practice #1
 # We need to print the associate name and number within the following sentence:
 # "Dear (associate_name), your associate number is: (associate_number)"
 # Remember that the precision of your answer (spaces, spelling and punctuation) is very important to arrive at the correct result.
 
-
-# associate_name = "Jesse Pinkman"
-# associate_number = 399058
+associate_name = "Jesse Pinkman"
+associate_number = 399058
 
 # Dear (associate_name), your associate number is: (associate_number)
+print("Dear {}, your associate number is: {}".format(associate_name,
+                                                     associate_number))
 
 # Strings Formatting Practice #2
 # Tell the user the amount of points earned within the following phrase:
 # "You have earned (new_points) points! In total, you have accumulated (total_points) points"
 # Remember that the precision of your answer (spaces, spelling and punctuation) is very important to arrive at the correct result
-
+new_points = 2023
+total_points = 4201
+print("You have earned {} points! In total, you have accumulated {} points".
+      format(new_points, total_points))
 
 # Strings Formatting Practice #3
 # Tell the user the amount of points earned within the following phrase:
@@ -254,8 +239,10 @@ print(num1 + num2)
 # This time, the amount of points accumulated (total_points) will be equal to the previous_points plus the new_points.
 # Remember that the precision of your answer (spaces, spelling and punctuation) is very important to arrive at the correct result.
 
-# previous_points = 875
-# new_points = 350
+previous_points = 875
+new_points = 350
+print("You had {} points! After the spending, you have {} points left".format(
+    previous_points, new_points))
 
 #################################Mathematical operations####################
 # slides 20 -24
@@ -269,7 +256,7 @@ print(num1 + num2)
 # # absolute value
 # # order of operations
 # #to do more you need to import special math libraries from python
-# #from math import *     
+# #from math import *
 # #this goes out and grabs some different math functions we can use
 # #floor method
 # #ceil method
@@ -279,22 +266,44 @@ print(num1 + num2)
 
 # ### Addition
 # 1. Add the numbers 145 and 256.
+math1 = 145 + 256
+print(math1)
 # 2. What is the sum of 873 and 1,287?
+math2 = 873 + 1287
+print(math2)
 
 # ### Multiplication
 # 3. Multiply 13 by 24.
+mult1 = 13 * 24
+print(mult1)
+
 # 4. What is the product of 17 and 19?
+mult2 = 17 * 19
+print(mult2)
 
 # ### Division
 # 5. Divide 528 by 6.
+div1 = 528 / 6
+print(div1)
+
 # 6. What is the result when 1,234 is divided by 4?
+div2 = 1234 / 4
+print(div2)
 
 # ### Modulo
 # 7. What is the remainder when 200 is divided by 7?
+mod1 = 200 % 7
+print(mod1)
+
 # 8. If \( x = 145 \) modulo 12, find the value of \( x \).
+x = 145 % 12
+print(x)
 
 # ### Powers
 # 9. Calculate \( 7^3 \).
+pow1 = 7**3
+print(pow1)
+
 # 10. Find the value of \( 5^4 \).
 
 # ### Get the max and min of a number
@@ -328,21 +337,11 @@ print(num1 + num2)
 
 # Note: For the problems involving floor, ceil, and sqrt, students will need to use the `math` library functions in Python.
 
-
 # Print on the screen the floor division of the following two numbers: 874 divided by 27
-
-
 
 # Print on the screen the modulus of 456 divided by 33
 
-
-
 # Calculate and print the square root of 783
-
-
-
-
-
 
 ##########################################################################################
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
@@ -358,21 +357,9 @@ print(num1 + num2)
 # # find the remainder of the numbers
 # #round one number
 
-
-
-
-
-
-
-
 ######### on to the last slide for your challenge-- work on this with another person .
 
 # 1) create a new repl for the challenge
 # 2) name it challenge week 3
 # 3) invite the other person to your repl.
 # 4) you now have a mind partner in collaborating on solving this challenge
-
-
-
-
-
